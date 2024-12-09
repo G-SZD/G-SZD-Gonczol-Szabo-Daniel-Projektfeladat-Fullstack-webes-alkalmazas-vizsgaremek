@@ -21,7 +21,35 @@
    </p><br>
     <p>The Delivery Person module is for individuals who wish to participate in the food donation process by providing pickup and delivery services. Delivery personnel can register themselves on the platform .The Delivery Person module provides pickup and drop-off services for NGOs and charities who have requested a food donation.The Delivery Person module shows the pickup location and drop location of the food donation.
     </p><br>
-    <p>Overall, the Food Waste Management System is designed to efficiently manage excess food and ensure that it is distributed to those in need. The User module accepts food donations, the Admin module lists them for NGOs and charities to choose from, and the Delivery Person module provides pickup and drop-off services. This system benefits the community by reducing food waste and helping those in need
+    <p>Overall, the Food Waste Management System is designed to efficiently manage excess food and ensure that it is distributed to those in need. The User module accepts food donations, the Admin module lists them for NGOs and charities to choose from, and the Delivery Person module provides pickup and drop-off services. This system benefits the community by reducing food waste and helping those in need.
+    </p>
+ <p>
+Az XAMPP szoftver telepítve van a C:\ meghajtóra a  számítógépembe ahonnan meg lehet nyitni a meglévő, PHP-val készült webhelyeket.
+A PHP eredeti jelentése a Personal HomePage volt. De ez most a  Hypertext Preprocessor rekurzív rövidítése. AZ XAMPP mappában van a MySQL mappa ezt megnyitottam majd a bin mappa megnyitása után másoltam ezt az elérési utat C:\xampp\mysql\bin és a keresősávban kerestem szerkesztéseket a rendszerkörnyezeti változók miatt, a megnyitás után a környezeti változókhoz a rendszerváltozónál kerestem elérési utat Path-t duplán kattintottam erre, még egy felugró ablak jelent meg ahol új szakaszba jutottam ahova bemásoltam a meglévő könyvtárból: C:\xampp\mysql\bin 
+a bin mappa elérési útját majd az ok-ra kattintottam három alkalommal és így az elérési út bekerült a rendszerkörnyezeti változók közé. 
+Telepítettem egy .zip fájlt food-waste-management-system-main néven ami az élelmiszer-hulladék fő kezelési rendszere.
+Jobb gombbal kattintottam aztán kiválasztottam - Az összes kibontása… - gombra majd letöltöttem és kicsomagoltam a fájlokat a C:\ meghajtóra C:\Users\Dániel\Downloads. A fájlok kicsomagolásra kerültek az aktuális mappába ahol a .zip fájl is van. Rákattintottam a mappára, ez a fő könyvtár ahol a fájlok vannak. Megnyitottam a Visual Studio Code-ban a projektet amely PHP alkalmazásban van ennek futtatásához jobbra a keresősávban megkerestem a XAMPP vezérlőpultot és elindítottam 
+az Apache Port(s) 80,443
+és a MySQL Port(s) 3306 szervereket mely a fekete betűknél zöld szimbólummal jelentek meg így a szerverek megfelelően elindultak. Ebben a fájlban megkerestem a database-t, az adatbázist ahol van a demo.sql, megnyitottam ez egy lekérdezés és nem használtam ezt a fájlt szerkesztési célra. Megkerestem a connection.php-t ahol megtaláltam a demo részt.
+
+A böngésző keresősávba beírtam, hogy localhost és megjelent http://localhost/dashboard/
+Apache Friends FAQs HOW-TO Guides PHPInfo phpMyAdmin
+
+XAMPP Apache + MariaDB + PHP + Perl
+
+You have successfully installed XAMPP on this system!
+És a többi szöveg angolul.
+Ez egy webhely ami a helyi gazdagépen fut. Ezt követően beírtam, hogy localhost/phpmyadmin tehát a PHP adatbázis sikeresen meg lett nyitva mert elindítottam a szervereket.
+A http://localhost/phpmyadmin/ weboldalon új szakaszra kattintottam a bal felső sarokban és az adatbázis nevébe bemásoltam és beillesztettem a connection.php szöveges részből a demo szót ami az új Adatbázis neve lett és rákattintottam a létrehozás gombra ami mindent megtart alapértelmezés szerint. Itt az importálás szakaszra kattintottam majd kiválasztottam az importálandó fájlt és a Letöltések közül rákattintottam telepített projektre ami a food-waste-management-system-main amely kibontható fájl és a database, az adatbázis mappán belül van a demo.sql fájl ami egy SQL forrásfájl jobb gombbal kattintottam megnyitottam és megjelent phpMyAdmin felületen Importálás az adatbázisba demóba majd a lenti Importálás gomra kattintottam. Minden zöld pipa, minden rendben az összes tábla sikeresen létrejött.
+Ezek a táblázatok admin kézbesítők élelmiszer-adományok bejelentkezés felhasználói visszajelzések, így a projekt sikeresen be lett állítva, annyit kellett tenni, hogy a food-waste-management-system-main mappát kiválasztottam kimásoltam és beillesztettem a Helyi lemez (C:) > xampp > htodcs > mappába. A beillesztés után a böngészőt kezdtem megint használni és a food-waste-management-system-main csak a szöveget kimásoltam és a localhost/ után beillesztettem:
+localhost/food-waste-management-system-main ami a címsorban http://localhost/food-waste-management-system-main/ jelent meg kattintható weboldal részekkel:
+
+Welcome to Food Donate
+Login as
+User
+Admin
+Delivery
+A projekt sikeresen megnyílt innen lehet a weboldal használatával bejelentkezni felhasználóként vagy adminként jelszót és emailt regisztrálni.
     </p>
     <h3>User </h3>
    <!-- <img src="img/User-module.jpg"> -->
