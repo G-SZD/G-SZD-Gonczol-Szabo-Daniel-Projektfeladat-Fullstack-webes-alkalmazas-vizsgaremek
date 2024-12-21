@@ -1,6 +1,6 @@
 # Európai hulladékcsökkentés és élelmiszer hulladék gazdálkodási rendszer
 <!-- <img src="img/coverimage.jpeg"> -->
-<p>  Az Élelmiszer-hulladék-kezelési projekt koncepciója az, hogy összegyűjti a felesleges élelmiszert az adományozóktól, mint például szállodáktól, éttermektől, nonprofit szervezetektől és szétosztja a rászoruló embereknek. </p>
+<p>  Az Európai hulladékcsökkentés és élelmiszer hulladék gazdálkodási rendszer irányvonala az, hogy összegyűjti a felesleges élelmiszert az adományozóktól, mint például szállodáktól, éttermektől, nonprofit szervezetektől és szétosztja a rászoruló embereknek. </p>
 <h2>Eszközök és technológiák</h2> 
 <ul>
  <li>Frontend : HTML, CSS,  JavaScript</li>
