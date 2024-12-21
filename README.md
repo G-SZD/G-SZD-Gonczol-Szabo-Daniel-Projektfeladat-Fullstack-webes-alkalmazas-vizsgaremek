@@ -1,27 +1,27 @@
-# Élelmiszerhulladék-gazdálkodási rendszer
+# Európai hulladékcsökkentés és élelmiszer hulladék gazdálkodási rendszer
 <!-- <img src="img/coverimage.jpeg"> -->
-<p>  The basic concept of this project  Food Waste Management is to collect theexcess/leftover food from donors such as hotels, restaurants, and distribute to  the  needy people .</p>
-<h2>Tools and Technologies</h2> 
+<p>  Az Élelmiszer-hulladék-kezelési projekt koncepciója az, hogy összegyűjti a felesleges élelmiszert az adományozóktól, mint például szállodáktól, éttermektől, nonprofit szervezetektől és szétosztja a rászoruló embereknek. </p>
+<h2>Eszközök és technológiák</h2> 
 <ul>
  <li>Frontend : HTML, CSS,  JavaScript</li>
  <li>Backend  : php</li>
  <li>webserver: xampp server</li>
- <li>Database: MySQL </li>
+ <li>Adatbázis: MySQL </li>
 </ul>
 
- <h2>The system has three modules. </h2>
+ <h2>A rendszer három modulból áll. </h2>
     <ul><li>User</li>
     <li>Admin</li>
     <li>Delivery</li></ul>
    <br>
-    <p>The User module is designed for people who wish to donate their excess or leftover food to help reduce food wastage.The User module is responsible for accepting food donations from users who have excess food, such as marriage halls, restaurants, or individuals.The module provides users with the ability to register, login, and donate food. Users can select the type and quantity of food they want to donate, and the system will match their donation with the nearest needy people or organizations.The module also allows users to view their donations.The User module provides the information to the Admin module for further processing.
+    <p>A Felhasználói modult azoknak az embereknek tervezték, akik az élelmiszer-pazarlás csökkentése érdekében szeretnék felajánlani a  megmaradt ételeiket. A felhasználói modul felelős azért, hogy elfogadja az élelmiszer-adományokat olyan felhasználóktól, akiknek nagyon sok élelmiszerük van, például éttermektől cégektől vagy magánszemélyektől. A modul lehetőséget kínál a felhasználók számára, hogy regisztráljanak, bejelentkezzenek és élelmiszert adományozzanak. A felhasználók kiválaszthatják az adományozni kívánt élelmiszer típusát és mennyiségét, és a rendszer összeegyezteti ezeket a legközelebbi rászoruló emberekkel vagy szervezetekkel továbbá a modul segítségével a felhasználók megtekinthetik adományaikat is. A Felhasználói modul az Adminisztrációs modul számára nyújt információkat további feldolgozásra.
    </p><br>
    <p>
-      The Administrator module is for trusts, NGOs, and charities that are registered on the platform. The Admin module is designed for system administrators who manage the food distribution process. The Admin module receives information about the food donation from the User module and lists it for NGOs and charities to choose from.Admins can view and manage the list of donations received, including the type and quantity of food donated. NGOs and charities can select the food donation they need from the Admin module and request a pickup to the Delivery module.The Admin module is responsible for tracking the requests and keeping track of which organizations have taken which donations
+      Az Adminisztrátor modul a platformon regisztrált trösztök, amelyek a vagyonkezeléssel megbízott holdingok, civil szervezetek és jótékonysági szervezetek számára készült. Az Admin modul az ételosztási folyamatot irányító rendszergazdáknak készült. Az Adminisztrációs modul információkat kap az élelmiszer-adományozásról a Felhasználó modulból, és felsorolja azokat a civil szervezetek és jótékonysági szervezetek számára, amelyek ezek közül választhatnak. Az adminisztrátorok megtekinthetik és kezelhetik a kapott adományok listáját, az adományozott élelmiszerek típusát és mennyiségét. A civil szervezetek és a jótékonysági szervezetek az Adminisztrációs modulból kiválaszthatják a számukra feltétlenül szükséges élelmiszer-adományt, és kérhetik az átvételt a Szállítás modulba. Az Admin modul feladata a kérések nyomon követése és annak nyomon követése, hogy a szervezetek milyen adományokat vettek fel.
    </p><br>
-    <p>The Delivery Person module is for individuals who wish to participate in the food donation process by providing pickup and delivery services. Delivery personnel can register themselves on the platform .The Delivery Person module provides pickup and drop-off services for NGOs and charities who have requested a food donation.The Delivery Person module shows the pickup location and drop location of the food donation.
+    <p>A kézbesítő modul azoknak a magánszemélyeknek van, akik az élelmiszer-adományozási folyamatban részt akarnak venni az átvételi és kiszállítási szolgáltatások segítségeivel. A kézbesítők regisztrálhatják magukat a platformon. A Delivery Person modul átvételi és leadási szolgáltatásokat nyújt azoknak a civil szervezeteknek és jótékonysági szervezeteknek, amelyek élelmiszeradományt kértek. A kézbesítő modul megmutatja az élelmiszer-adomány felvételének és leadásának helyét.
     </p><br>
-    <p>Overall, the Food Waste Management System is designed to efficiently manage excess food and ensure that it is distributed to those in need. The User module accepts food donations, the Admin module lists them for NGOs and charities to choose from, and the Delivery Person module provides pickup and drop-off services. This system benefits the community by reducing food waste and helping those in need.
+    <p>Az Élelmiszer hulladék kezelési rendszert úgy alakították ki, hogy a felesleges élelmiszer elosztását biztosítsa  a rászorulók között. A Felhasználó modul fogadja az élelmiszer-adományokat, az Adminisztrációs modul pedig felsorolja azokat a civil szervezeteket és jótékonysági szervezeteket amelyek közül választhatnak, a Kézbesítő modul pedig átvételi és kiszállítási szolgáltatásokat viszonoz. Ez a rendszer a közösség javát szolgálja az élelmiszer-pazarlás csökkentésével és a rászorulók segítésével.
     </p>
  <p>
 Az XAMPP szoftver telepítve van a C:\ meghajtóra a  számítógépembe ahonnan meg lehet nyitni a meglévő, PHP-val készült webhelyeket.
