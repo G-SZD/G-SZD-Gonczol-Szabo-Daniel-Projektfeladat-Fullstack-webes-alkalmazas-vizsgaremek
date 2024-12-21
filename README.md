@@ -10,9 +10,9 @@
 </ul>
 
  <h2>A rendszer három modulból áll. </h2>
-    <ul><li>User</li>
+    <ul><li>Felhasználó</li>
     <li>Admin</li>
-    <li>Delivery</li></ul>
+    <li>Szállítás</li></ul>
    <br>
     <p>A Felhasználói modult azoknak az embereknek tervezték, akik az élelmiszer-pazarlás csökkentése érdekében szeretnék felajánlani a  megmaradt ételeiket. A felhasználói modul felelős azért, hogy elfogadja az élelmiszer-adományokat olyan felhasználóktól, akiknek nagyon sok élelmiszerük van, például éttermektől cégektől vagy magánszemélyektől. A modul lehetőséget kínál a felhasználók számára, hogy regisztráljanak, bejelentkezzenek és élelmiszert adományozzanak. A felhasználók kiválaszthatják az adományozni kívánt élelmiszer típusát és mennyiségét, és a rendszer összeegyezteti ezeket a legközelebbi rászoruló emberekkel vagy szervezetekkel továbbá a modul segítségével a felhasználók megtekinthetik adományaikat is. A Felhasználói modul az Adminisztrációs modul számára nyújt információkat további feldolgozásra.
    </p><br>
