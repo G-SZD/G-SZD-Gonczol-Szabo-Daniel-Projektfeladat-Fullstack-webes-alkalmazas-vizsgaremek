@@ -21,7 +21,7 @@
    </p><br>
     <p>A kézbesítő modul azoknak a magánszemélyeknek van, akik az élelmiszer-adományozási folyamatban részt akarnak venni az átvételi és kiszállítási szolgáltatások segítségeivel. A kézbesítők regisztrálhatják magukat a platformon. A Delivery Person modul átvételi és leadási szolgáltatásokat nyújt azoknak a civil szervezeteknek és jótékonysági szervezeteknek, amelyek élelmiszeradományt kértek. A kézbesítő modul megmutatja az élelmiszer-adomány felvételének és leadásának helyét.
     </p><br>
-    <p>Az Élelmiszer hulladék kezelési rendszert úgy alakították ki, hogy a felesleges élelmiszer elosztását biztosítsa  a rászorulók között. A Felhasználó modul fogadja az élelmiszer-adományokat, az Adminisztrációs modul pedig felsorolja azokat a civil szervezeteket és jótékonysági szervezeteket amelyek közül választhatnak, a Kézbesítő modul pedig átvételi és kiszállítási szolgáltatásokat viszonoz. Ez a rendszer a közösség javát szolgálja az élelmiszer-pazarlás csökkentésével és a rászorulók segítésével.
+    <p> Az Európai hulladékcsökkentés és élelmiszer hulladék gazdálkodási rendszert úgy alakították ki, hogy a felesleges élelmiszer elosztását biztosítsa  a rászorulók között. A Felhasználó modul fogadja az élelmiszer-adományokat, az Adminisztrációs modul pedig felsorolja azokat a civil szervezeteket és jótékonysági szervezeteket amelyek közül választhatnak, a Kézbesítő modul pedig átvételi és kiszállítási szolgáltatásokat viszonoz. Ez a rendszer a közösség javát szolgálja az élelmiszer-pazarlás csökkentésével és a rászorulók segítésével.
     </p>
  <p>
 Az XAMPP szoftver telepítve van a C:\ meghajtóra a  számítógépembe ahonnan meg lehet nyitni a meglévő, PHP-val készült webhelyeket.
